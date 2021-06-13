@@ -18,14 +18,18 @@ export const App = () => {
   }
 
   return (
-    <div>
-      <header>
+    <div className="wrapper">
+      <header className="app-header">
         Dog App
       </header>
-      <div>
-        <p>犬の画像を表示するサイトです</p>
-        <img src={dogUrl} alt='dog' />
-        <button onClick={changeImg}>更新</button>
+      <div className="container">
+        <div className="img-content">
+          <p>犬の画像を表示するサイトです</p>
+          <img src={dogUrl} alt='dog' />
+        </div>
+        <div className="button-wrapper">
+          <button onClick={changeImg}>画像を更新</button>
+        </div>
       </div>
     </div>
   )

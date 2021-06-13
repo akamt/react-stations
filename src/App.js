@@ -11,8 +11,12 @@ export const App = () => {
   return (
     <div>
       <header>
-        Hoge App
+        Dog App
       </header>
+      <div>
+        <p>犬の画像を表示するサイトです</p>
+        <img src='https://images.dog.ceo/breeds/eskimo/n02109961_8295.jpg' alt='dog' />
+      </div>
     </div>
   )
 }
